@@ -1,0 +1,17 @@
+.tarjeta{
+    margin: 0 auto;
+    max-width: 640px;
+    background-image: url(../img/red-g63c672c02_640.png);
+    background-size: cover;
+    height: 360px;
+    position: relative;
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: 'Festive', cursive;
+}
+
