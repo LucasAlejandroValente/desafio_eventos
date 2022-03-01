@@ -32,10 +32,14 @@ function updateAll(event) {
 
 formTarjeta.addEventListener('submit', (e) => {
     e.preventDefault()
-    nombre = document.getElementById('nombre').value;
 });
 
+function collectInfo() {
+    nombre = document.getElementById('nombre').value
+};
+
 generarTarjeta.addEventListener('click', () => {
+    collectInfo();
     tarjeta.innerHTML = `
     <div class="container-fluid tarjeta">
         <h2 class="texto">Feliz Navidad, ${nombre}</h2>
